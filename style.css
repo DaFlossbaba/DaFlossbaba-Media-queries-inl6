@@ -108,7 +108,6 @@ footer {
         margin-top: 40vh;
         font-size: large;
         display: block;
-   
     }
     .link {
         width: 80px;
@@ -120,8 +119,6 @@ footer {
         width: 320px;
         height: 200px;
         display: flex;
-        margin-right: 20%;
-    
     }
     #last {
         margin-top: 20vh; /* Adjust to fit mobile layout */
