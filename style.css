@@ -14,12 +14,11 @@ aside {
 
 #meny {
     text-align: center;
+  
 }
 
 #logo {
-
 width: 13vw;
-
 }
 
 .link {
@@ -34,8 +33,12 @@ width: 13vw;
   background-color: aliceblue;
 }
 
-main {
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
 
+main {
     margin-left: 20vw;
 }
 
@@ -53,6 +56,7 @@ main {
 
 .maintext {
 display: flex;
+padding: 2rem;
 }
 
 #cssid {
@@ -82,18 +86,53 @@ text-align: center;
   /* Media Queries */
   @media (max-width: 768px) {
    body  {
-    font-size: 14px;
+    font-size: 16px;
        
     }
-    aside {
-        width: 100%;
-        order: -1; /* Place aside at the top */
+    aside { 
+        width:110% ;
+        height: auto;
         text-align: center;
+       position: relative;
+    }
+    #logo {
+        width: 250px;
+        height: 150px;
+        margin: 10px;
+    }
+    main {
+        position: absolute;
+    }
+
+    #title {
+        margin-right: 17vw;
+    }
+
+    p {
+        font-size: 22px;
     }
 
     #second {
-        margin-top: 13vh;
+        margin-top: 10vh;
+        font-size: large;
+  
     }
 
+    .link {
+        width: 80px;
+        height: 40px;
+        margin-left: 47vw;
+        font-size: large;
+    }
+
+    #cssid {
+margin-right: 15vw;
+    }
+
+  
+
+    #last {
+        margin-top: 220vh;
+ }
 
 }
